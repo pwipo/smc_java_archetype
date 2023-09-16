@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<properties>
+
+    <uuid>Hello</uuid>
+    <provider>java</provider>
+    <os/>
+    <arch/>
+    <ver>${version}</ver>
+    <apiVer>1.3.0</apiVer>
+    <author>your_name</author>
+    <contacts>mail@mail_server</contacts>
+    <homePage>http://www.your_site</homePage>
+    <className>${groupId}.module.Hello</className>
+    <categories>Example1,Example2</categories>
+    <copyrightAndLicense>
+        <entry>
+            <key>en</key>
+            <value>The program is free for use.
+Forbidden: changing the program code, as well as other actions and rights not explicitly permitted.
+The program is supplied as is. For problems arising during the operation or installation of the program, the author, developer and distributor are not responsible.
+            </value>
+        </entry>
+        <entry>
+            <key>ru</key>
+            <value>Программа бесплатна для использования.
+Запрещено: изменение кода программы, а так же иные не разрешенные явно действия и права.
+Программа поставляется как есть. За проблемы, возникающие в процессе эксплуатации или установки программы, автор, разработчик и распространитель ответственности не несут.
+            </value>
+        </entry>
+    </copyrightAndLicense>
+    <date>29-05-2023</date>
+
+    <defaultSettings/>
+
+    <minCountSources>0</minCountSources>
+    <maxCountSources>0</maxCountSources>
+
+    <typeSource>
+        <ValueType>BYTE</ValueType>
+        <ValueType>SHORT</ValueType>
+        <ValueType>INTEGER</ValueType>
+        <ValueType>LONG</ValueType>
+        <ValueType>FLOAT</ValueType>
+        <ValueType>DOUBLE</ValueType>
+        <ValueType>BIG_INTEGER</ValueType>
+        <ValueType>BIG_DECIMAL</ValueType>
+        <ValueType>STRING</ValueType>
+        <ValueType>BYTES</ValueType>
+        <ValueType>OBJECT_ARRAY</ValueType>
+    </typeSource>
+
+    <typeResult>
+        <ValueType>STRING</ValueType>
+    </typeResult>
+
+    <minManagedExecutionContexts>0</minManagedExecutionContexts>
+    <maxManagedExecutionContexts>0</maxManagedExecutionContexts>
+
+    <minManagedConfigurations>0</minManagedConfigurations>
+    <maxManagedConfigurations>0</maxManagedConfigurations>
+
+    <useStorage>false</useStorage>
+
+    <threadSafe>true</threadSafe>
+
+    <privateUsage>false</privateUsage>
+
+    <defaultExecutionContext/>
+
+    <description>
+        <entry>
+            <key>en</key>
+            <value>Say hello.</value>
+        </entry>
+        <entry>
+            <key>ru</key>
+            <value>Говорит привет.</value>
+        </entry>
+    </description>
+
+    <help>
+        <entry>
+            <key>en</key>
+            <value>Say hello.</value>
+        </entry>
+        <entry>
+            <key>ru</key>
+            <value>Говорит привет.</value>
+        </entry>
+    </help>
+
+    <examples>
+        <example>
+            <description>
+                <entry>
+                    <key>en</key>
+                    <value>First example.</value>
+                </entry>
+                <entry>
+                    <key>ru</key>
+                    <value>Первый пример.</value>
+                </entry>
+            </description>
+            <settings/>
+            <variables/>
+            <sources/>
+            <output>
+                <message>
+                    <type>STRING</type>
+                    <value>Hello world</value>
+                </message>
+            </output>
+            <countManagedExecutionContexts>0</countManagedExecutionContexts>
+            <countManagedConfigurations>0</countManagedConfigurations>
+        </example>
+    </examples>
+    <icon>iVBORw0KGgoAAAANSUhEUgAAABAAAAAUCAYAAACEYr13AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAAGYktHRAD/AP8A/6C9p5MAAAB3SURBVDhP7dTBDYAgDEBR6g46gq7BNDqTTsMaOoIOobRW00QwBa78SykJ7wicPlMQAQDAa7h53WmOfUtT9gLOOb76Zq2NIg3P3xCfho7Oy3bQfFIBWAxRA1gISQIwiWDJACaRLEBWgQpgxYDqQ4nln94A7xkZcwE+RDWh0WRZZgAAAABJRU5ErkJggg==</icon>
+
+</properties>
