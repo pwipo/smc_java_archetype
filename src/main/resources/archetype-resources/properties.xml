@@ -28,36 +28,37 @@ The program is supplied as is. For problems arising during the operation or inst
             </value>
         </entry>
     </copyrightAndLicense>
-    <date>29-05-2023</date>
+    <date>19-10-2023</date>
 
     <defaultSettings/>
 
-    <minCountSources>0</minCountSources>
-    <maxCountSources>0</maxCountSources>
-
-    <typeSource>
-        <ValueType>BYTE</ValueType>
-        <ValueType>SHORT</ValueType>
-        <ValueType>INTEGER</ValueType>
-        <ValueType>LONG</ValueType>
-        <ValueType>FLOAT</ValueType>
-        <ValueType>DOUBLE</ValueType>
-        <ValueType>BIG_INTEGER</ValueType>
-        <ValueType>BIG_DECIMAL</ValueType>
-        <ValueType>STRING</ValueType>
-        <ValueType>BYTES</ValueType>
-        <ValueType>OBJECT_ARRAY</ValueType>
-    </typeSource>
-
-    <typeResult>
-        <ValueType>STRING</ValueType>
-    </typeResult>
-
-    <minManagedExecutionContexts>0</minManagedExecutionContexts>
-    <maxManagedExecutionContexts>0</maxManagedExecutionContexts>
-
-    <minManagedConfigurations>0</minManagedConfigurations>
-    <maxManagedConfigurations>0</maxManagedConfigurations>
+    <types>
+        <type>
+            <type>default</type>
+            <description>
+                <entry>
+                    <key>ru</key>
+                    <value>Контекст исполнения по умолчанию. Не обрабатывает входящих значений.</value>
+                </entry>
+                <entry>
+                    <key>en</key>
+                    <value>Default execution context. Does not process incoming values.</value>
+                </entry>
+            </description>
+            <countExecutionContexts>0</countExecutionContexts>
+            <countManagedConfigurations>0</countManagedConfigurations>
+            <sources/>
+            <output>
+                <element>
+                    <type>VALUE</type>
+                    <count>1</count>
+                    <description/>
+                    <valueType>STRING</valueType>
+                    <value>Hello world</value>
+                </element>
+            </output>
+        </type>
+    </types>
 
     <useStorage>false</useStorage>
 
