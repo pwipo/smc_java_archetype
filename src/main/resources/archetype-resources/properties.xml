@@ -28,7 +28,7 @@ The program is supplied as is. For problems arising during the operation or inst
             </value>
         </entry>
     </copyrightAndLicense>
-    <date>19-10-2023</date>
+    <date>15-12-2023</date>
 
     <defaultSettings/>
 
@@ -45,9 +45,25 @@ The program is supplied as is. For problems arising during the operation or inst
                     <value>Default execution context. Does not process incoming values.</value>
                 </entry>
             </description>
-            <countExecutionContexts>0</countExecutionContexts>
-            <countManagedConfigurations>0</countManagedConfigurations>
-            <sources/>
+            <minCountSources>0</minCountSources>
+            <maxCountSources>-1</maxCountSources>
+            <minCountManagedExecutionContexts>0</minCountManagedExecutionContexts>
+            <maxCountManagedExecutionContexts>0</maxCountManagedExecutionContexts>
+            <minCountManagedConfigurations>0</minCountManagedConfigurations>
+            <maxCountManagedConfigurations>0</maxCountManagedConfigurations>
+            <sources>
+                <source>
+                    <count>-1</count>
+                    <elements>
+                        <element>
+                            <type>VALUE_ANY</type>
+                            <count>-1</count>
+                            <valueType>OBJECT_ARRAY</valueType>
+                            <value>[]</value>
+                        </element>
+                    </elements>
+                </source>
+            </sources>
             <output>
                 <element>
                     <type>VALUE</type>
