@@ -33,46 +33,23 @@ The program is supplied as is. For problems arising during the operation or inst
     <defaultSettings/>
 
     <types>
-        <type>
-            <type>default</type>
+        <type type="default" minS="0" maxS="-1" minEC="0" maxEC="0" minC="0" maxC="0">
             <description>
-                <entry>
-                    <key>ru</key>
-                    <value>Контекст исполнения по умолчанию. Не обрабатывает входящих значений.</value>
-                </entry>
-                <entry>
-                    <key>en</key>
-                    <value>Default execution context. Does not process incoming values.</value>
-                </entry>
+                <entry k="en" v="Default execution context. Does not process incoming values."/>
+                <entry k="ru" v="Контекст исполнения по умолчанию. Не обрабатывает входящих значений."/>
             </description>
-            <minCountSources>0</minCountSources>
-            <maxCountSources>-1</maxCountSources>
-            <minCountManagedExecutionContexts>0</minCountManagedExecutionContexts>
-            <maxCountManagedExecutionContexts>0</maxCountManagedExecutionContexts>
-            <minCountManagedConfigurations>0</minCountManagedConfigurations>
-            <maxCountManagedConfigurations>0</maxCountManagedConfigurations>
             <sources>
                 <source>
                     <count>-1</count>
                     <elements>
-                        <element>
-                            <type>VALUE_ANY</type>
-                            <count>-1</count>
-                            <valueType>OBJECT_ARRAY</valueType>
-                            <value>[]</value>
-                        </element>
+                        <element t="VALUE_ANY" c="-1" vt="OBJECT_ARRAY" v="[]"/>
                     </elements>
                 </source>
             </sources>
             <output>
-                <element>
-                    <type>VALUE</type>
-                    <count>1</count>
-                    <description/>
-                    <valueType>STRING</valueType>
-                    <value>Hello world</value>
-                </element>
+                <element t="VALUE" c="1" vt="STRING" v="Hello world"/>
             </output>
+            <ecs/>
         </type>
     </types>
 
@@ -85,14 +62,8 @@ The program is supplied as is. For problems arising during the operation or inst
     <defaultExecutionContext/>
 
     <description>
-        <entry>
-            <key>en</key>
-            <value>Say hello.</value>
-        </entry>
-        <entry>
-            <key>ru</key>
-            <value>Говорит привет.</value>
-        </entry>
+        <entry k="en" v="Say hello."/>
+        <entry k="ru" v="Говорит привет."/>
     </description>
 
     <help>
@@ -107,28 +78,17 @@ The program is supplied as is. For problems arising during the operation or inst
     </help>
 
     <examples>
-        <example>
+        <example t="default" countEC="0" countC="0">
             <description>
-                <entry>
-                    <key>en</key>
-                    <value>First example.</value>
-                </entry>
-                <entry>
-                    <key>ru</key>
-                    <value>Первый пример.</value>
-                </entry>
+                <entry k="en" v="First example."/>
+                <entry k="ru" v="Первый пример."/>
             </description>
             <settings/>
             <variables/>
             <sources/>
             <output>
-                <message>
-                    <type>STRING</type>
-                    <value>Hello world</value>
-                </message>
+                <message t="STRING" v="ello world"/>
             </output>
-            <countManagedExecutionContexts>0</countManagedExecutionContexts>
-            <countManagedConfigurations>0</countManagedConfigurations>
         </example>
     </examples>
     <icon>iVBORw0KGgoAAAANSUhEUgAAABAAAAAUCAYAAACEYr13AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAAGYktHRAD/AP8A/6C9p5MAAAB3SURBVDhP7dTBDYAgDEBR6g46gq7BNDqTTsMaOoIOobRW00QwBa78SykJ7wicPlMQAQDAa7h53WmOfUtT9gLOOb76Zq2NIg3P3xCfho7Oy3bQfFIBWAxRA1gISQIwiWDJACaRLEBWgQpgxYDqQ4nln94A7xkZcwE+RDWh0WRZZgAAAABJRU5ErkJggg==</icon>
