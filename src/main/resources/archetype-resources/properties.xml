@@ -6,7 +6,7 @@
     <os/>
     <arch/>
     <ver>${version}</ver>
-    <apiVer>1.3.0</apiVer>
+    <apiVer>1.4.0</apiVer>
     <author>your_name</author>
     <contacts>mail@mail_server</contacts>
     <homePage>http://www.your_site</homePage>
@@ -15,20 +15,20 @@
     <copyrightAndLicense>
         <entry>
             <key>en</key>
-            <value>The program is free for use.
+            <value><![CDATA[The program is free for use.
 Forbidden: changing the program code, as well as other actions and rights not explicitly permitted.
 The program is supplied as is. For problems arising during the operation or installation of the program, the author, developer and distributor are not responsible.
-            </value>
+            ]]></value>
         </entry>
         <entry>
             <key>ru</key>
-            <value>Программа бесплатна для использования.
+            <value><![CDATA[Программа бесплатна для использования.
 Запрещено: изменение кода программы, а так же иные не разрешенные явно действия и права.
 Программа поставляется как есть. За проблемы, возникающие в процессе эксплуатации или установки программы, автор, разработчик и распространитель ответственности не несут.
-            </value>
+            ]]></value>
         </entry>
     </copyrightAndLicense>
-    <date>15-12-2023</date>
+    <date>16-05-2024</date>
 
     <defaultSettings/>
 
@@ -54,11 +54,8 @@ The program is supplied as is. For problems arising during the operation or inst
     </types>
 
     <useStorage>false</useStorage>
-
     <threadSafe>true</threadSafe>
-
     <privateUsage>false</privateUsage>
-
     <defaultExecutionContext/>
 
     <description>
