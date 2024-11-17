@@ -16,7 +16,7 @@
 
     <repositories>
         <repository>
-            <id>smcsystem</id>
+            <id>shelfmc</id>
             <url>http://www.shelfmc.ru/download/mavenRepository</url>
         </repository>
     </repositories>
