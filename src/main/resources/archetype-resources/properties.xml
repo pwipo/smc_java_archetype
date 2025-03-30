@@ -6,7 +6,7 @@
     <os/>
     <arch/>
     <ver>${version}</ver>
-    <apiVer>1.4.0</apiVer>
+    <apiVer>1.4.2</apiVer>
     <author>your_name</author>
     <contacts>mail@mail_server</contacts>
     <homePage>http://www.your_site</homePage>
@@ -28,7 +28,7 @@ The program is supplied as is. For problems arising during the operation or inst
             ]]></value>
         </entry>
     </copyrightAndLicense>
-    <date>16-05-2024</date>
+    <date>30-03-2025</date>
 
     <defaultSettings/>
 
@@ -56,6 +56,8 @@ The program is supplied as is. For problems arising during the operation or inst
     <useStorage>false</useStorage>
     <threadSafe>true</threadSafe>
     <privateUsage>false</privateUsage>
+    <useVariables>false</useVariables>
+    <useManagement>false</useManagement>
     <defaultExecutionContext/>
 
     <description>
